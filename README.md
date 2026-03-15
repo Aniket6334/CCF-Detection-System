@@ -18,6 +18,6 @@ The following classifiers from the Scikit-learn library were trained and evaluat
 To ensure robust performance, **cross-validation** was used to evaluate the models based on the following metrics:
 
 - Accuracy
-- F1 Score
 - Recall
+- F1 Score
 - ROC-AUC Score
