@@ -1,17 +1,23 @@
 # CCF-Detection-System
 
-Problem Description
-In this project we are going to work on a model to predict whether a credit card transaction was fraudulent or legit.
+## Problem Description
 
-We'll train five different classifiers from scikit-learn library:
+This project focuses on building a machine learning model to detect **fraudulent credit card transactions**.  
+The objective is to classify transactions as **fraudulent or legitimate** using supervised learning techniques.
 
-Logistic Regression
-Linear Support Vector Classifier
-Random Forrest Classifier
-Gradient Boosting Classifier
+## Models Implemented
 
-We also will be using cross-validation to compute three fitness metrics of these models:
+The following classifiers from the Scikit-learn library were trained and evaluated:
 
-Accuracy
-F1 Score
-Area Under the ROC Curve (ROC AUC Score)
+- Logistic Regression
+- Random Forest Classifier
+- Gradient Boosting Classifier
+
+## Model Evaluation
+
+To ensure robust performance, **cross-validation** was used to evaluate the models based on the following metrics:
+
+- Accuracy
+- F1 Score
+- Recall
+- ROC-AUC Score
